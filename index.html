@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina la letra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+<body>
+  <!-- header -->
+    <div class="container mt-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img id="header-logo" src="./assets/images/logo.png" alt=""></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- fin de header -->
+
+    <!-- main -->
+ <main>
+<!-- INTRO -->
+  <div class="container ml-5">
+    <div class="animate__animated animate__bounceInLeft" id="texto-principal">
+      ¿Listo?
+      ↓
+    </div>
+  </div>
+<!-- PRIMER ITEM -->
+  <div class="container">
+    <div id="primera-letra">
+      <h3>De profesión artista ... por deporte</h3>
+      <iframe id=primera-letra_video width="360" height="315" src="https://www.youtube.com/embed/JHplhUCB17w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+      <div id="primera-letra_botones">
+      <button type="button" class="btn btn-light btn-lg" id="primera-letra_boton1">Rocho</button>
+      <button type="button"  class="btn btn-light btn-lg" id="primera-letra_boton2">Turro</button>
+      <button type="button" class="btn btn-light btn-lg" id="primera-letra_boton3">Chorro</button>
+   </div>
+  </div>
+
+  <!-- SEGUNDO ITEM -->
+  <div class="container">
+    <div id="segunda-letra">
+      <h3>Si me ve siempre se ... yo nunca le hago que baje</h3>
+      <iframe id=segunda-letra_video width="360" height="315" src="https://www.youtube.com/embed/5kPrRLGMUoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div>
+      <div id="segunda-letra_botones">
+      <button type="button" class="btn btn-light btn-lg" id="segunda-letra_boton1">Alegra</button>
+      <button type="button"  class="btn btn-light btn-lg" id="segunda-letra_boton2">Enoja</button>
+      <button type="button" class="btn btn-light btn-lg" id="segunda-letra_boton3">Rie</button>
+   </div>
+  </div>
+
+
+ </main>
+  <!-- fin del main -->
+
+<footer>Creada por Ivan Dziuba</footer>
+
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="js/wow.min.js"></script>
+ <script> new WOW().init();</script>
+ <script src="./assets/js/main.js"></script>
+
+
+</body>
+</html>
